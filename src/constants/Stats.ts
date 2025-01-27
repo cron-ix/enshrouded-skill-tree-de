@@ -1,21 +1,27 @@
 export const BasicStats = {
   CONS: {
-    name: "Constitution",
+    //name: "Constitution",
+    name: "Konstitution",
   },
   STR: {
-    name: "Strength",
+    //name: "Strength",
+    name: "St&auml;rke",
   },
   ENDURANCE: {
-    name: "Endurance",
+    //name: "Endurance",
+    name: "Kondition",
   },
   DEX: {
-    name: "Dexterity",
+    //name: "Dexterity",
+    name: "Geschick",
   },
   SPIRIT: {
-    name: "Spirit",
+    //name: "Spirit",
+    name: "Willenskraft",
   },
   INT: {
-    name: "Intelligence",
+    //name: "Intelligence",
+    name: "Intelligenz",
   },
 };
 

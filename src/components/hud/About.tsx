@@ -18,7 +18,7 @@ const About = () => {
       <HUDButton className="w-fit" onClick={() => setAboutOpen(true)}>
         <div className="flex gap-1 items-center">
           <InfoIcon />
-          About
+          &Uuml;ber
         </div>
       </HUDButton>
     </div>

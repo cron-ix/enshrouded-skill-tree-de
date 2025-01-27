@@ -83,7 +83,7 @@ const AboutDialog = ({ open, onClose }: PropsType) => {
                       )}
                       onClick={onClose}
                     >
-                      Close
+                      Schlie&szlig;en
                     </button>
                   </div>
                 </div>

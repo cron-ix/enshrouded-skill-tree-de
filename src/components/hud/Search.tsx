@@ -43,7 +43,8 @@ const Search = () => {
             "py-1.5 px-3 text-white leading-tight focus:outline-none",
             "focus:shadow-outline bg-gray-900"
           )}
-          placeholder="Search"
+          //placeholder="Search"
+          placeholder="Suchen"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
