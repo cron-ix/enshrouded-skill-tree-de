@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
 
-const title = "Enshrouded Skill Planner";
-const description = "A skill tree planner for the game Enshrouded.";
+const title = "Enshrouded F&auml;higkeitenplaner";
+const description = "Ein Planer für den F&auml;higkeitenbaum im Spiel Enshrouded.";
 
 const CustomHeader = () => {
   return (

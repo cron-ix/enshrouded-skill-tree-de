@@ -5,7 +5,7 @@ export const BasicStats = {
   },
   STR: {
     //name: "Strength",
-    name: "St&auml;rke",
+    name: "Stärke",
   },
   ENDURANCE: {
     //name: "Endurance",
