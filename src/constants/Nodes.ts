@@ -42,7 +42,7 @@ const OVERPOWER =
 const SkillNodes: SkillNodesType = {
   types: {
     GIANT_SLAYER_HOOK: {
-      name: "RIESENT&Ouml;TER-HAKEN",
+      name: "RIESENTÖTER-HAKEN",
       description: [
         "Benutze deinen Greifhaken, um dich im Kampf zu gro&szlig;en Feinden zu ziehen.",
       ],
@@ -62,7 +62,7 @@ const SkillNodes: SkillNodesType = {
       cost: 2,
     },
     SAVIOUR: {
-      name: "ERL&Ouml;SER",
+      name: "ERLÖSER",
       description: [
         "Du ben&ouml;tigst nur 3 statt 6 Sekunden, um einen <b>Verb&uuml;ndeten wiederzubeleben.</b>",
       ],
@@ -92,7 +92,7 @@ const SkillNodes: SkillNodesType = {
       cost: 4,
     },
     LUMBERJACK: {
-      name: "HOLZF&Auml;LLER",
+      name: "HOLZFÄLLER",
       description: [
         "Holzf&auml;ller-&Auml;xte verursachen 30% mehr Schaden gegen Holzobjekte, einschlie&szlig;lich B&auml,ume.",
       ],
@@ -100,7 +100,7 @@ const SkillNodes: SkillNodesType = {
       cost: 2,
     },
     QUALITY_GEAR: {
-      name: "HOCHWERTIGE AUSR&Uuml;STUNG",
+      name: "HOCHWERTIGE AUSRÜSTUNG",
       description: ["Alle Werkzeuge verlieren 50% langsamer an Haltbarkeit."],
       color: "gold",
       cost: 2,
