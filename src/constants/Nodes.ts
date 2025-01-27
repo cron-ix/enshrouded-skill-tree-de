@@ -33,11 +33,11 @@ export const LinesAngles = [
 ];
 
 const SHROUD_TIME_TEXT =
-  "<b>Shroud Time</b><br/>Should this time run out, the Shroud will consume you.";
+  "<b>Miasma-Zeit</b><br/>Läuft diese Zeit aus, wird das Miasma dich verschlingen.";
 const BLOCK_BREAKER =
-  "<b>Block Breaker</b><br/>This special attack increases an enemy's stun bar twice as much when hit.";
+  "<b>Block Brecher</b><br/>Dieser Spezialangriff erh&ouml;ht die Bet&auml;ubungsleiste eines Gegners um das Doppelte, wenn er getroffen wird.";
 const OVERPOWER =
-  "<b>Overpower</b><br/>To overpower an enemy, fill their stun bar by attacking while they block or by parrying their attacks.";
+  "<b>&Uuml;berw&auml;ltigen</b><br/>Um einen Gegner zu &uuml;berw&auml;ltigen, f&uuml;llst die seine Bet&auml;ubungsleiste, indem du angreifst, w&auml;hrend er blockt oder seine Angriffe parierst.";
 
 const SkillNodes: SkillNodesType = {
   types: {
