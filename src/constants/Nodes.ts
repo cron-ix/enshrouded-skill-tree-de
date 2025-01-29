@@ -94,7 +94,7 @@ const SkillNodes: SkillNodesType = {
     LUMBERJACK: {
       name: "HOLZFÄLLER",
       description: [
-        "Holzf&auml;ller-&Auml;xte verursachen 30% mehr Schaden gegen Holzobjekte, einschlie&szlig;lich B&auml,ume.",
+        "Holzf&auml;ller-&Auml;xte verursachen 30% mehr Schaden gegen Holzobjekte, einschlie&szlig;lich B&auml;ume.",
       ],
       color: "gold",
       cost: 2,
