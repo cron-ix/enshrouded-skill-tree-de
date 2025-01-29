@@ -73,7 +73,7 @@ const AboutDialog = ({ open, onClose }: PropsType) => {
                     for giving me some of the assets used in this tool.
                   </p>
                   <p>
-                    Deutsche &Uuml;bersetzung ist vom obigen GitHub Repository geforkt und um zus&auml; tzliche Assets erg&auml;nzt: {" "}
+                    Deutsche &Uuml;bersetzung ist vom obigen GitHub Repository geforkt und um zus&auml;tzliche Assets erg&auml;nzt: {" "}
                     <a
                       className="text-purple-600 underline"
                       href="https://github.com/cron-ix/enshrouded-skill-tree-de"
