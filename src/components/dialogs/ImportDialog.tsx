@@ -29,7 +29,7 @@ const ImportDialog = ({ open, onClose, onImport }: PropsType) => {
       setUrl("");
       onClose();
     } else {
-      toast.error("Invalid url!");
+      toast.error("Ungültige URL!");
     }
   };
 
@@ -64,7 +64,7 @@ const ImportDialog = ({ open, onClose, onImport }: PropsType) => {
                   as="h3"
                   className="text-lg font-medium leading-6 text-gray-900"
                 >
-                  Import skills
+                  Importiere Fähigkeiten
                 </Dialog.Title>
                 <form className="mt-5" onSubmit={importHandler}>
                   <input
@@ -83,7 +83,7 @@ const ImportDialog = ({ open, onClose, onImport }: PropsType) => {
                         "focus-visible:ring-purple-500 focus-visible:ring-offset-2"
                       )}
                     >
-                      Import
+                      Importieren
                     </button>
                   </div>
                 </form>
