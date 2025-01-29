@@ -12,7 +12,7 @@ type PropsType = {
 };
 
 const BASE_URL =
-  process.env.BASE_URL || "https://enshrouded-skill-tree.vercel.app/";
+  process.env.BASE_URL || "https://enshrouded-skill-tree-de.vercel.app/";
 
 const ExportDialog = ({ open, onClose }: PropsType) => {
   const [shareURL, setShareURL] = useState("");
