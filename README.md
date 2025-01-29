@@ -4,6 +4,8 @@ Das ist die deutsche Übersetzung des [Enshrouded Skill Planner](https://github.
 
 Die Live-Version ist [hier](https://enshrouded-skill-tree-de.vercel.app/) zu erreichen.
 
+***
+
 Originale README:
 
 ### Enshrouded Skill Planner
