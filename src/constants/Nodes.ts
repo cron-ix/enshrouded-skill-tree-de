@@ -383,7 +383,7 @@ const SkillNodes: SkillNodesType = {
     MULTI_SHOT_TRIGGER: {
       name: "MULTISCHUSS TRIGGER",
       description: [
-        `ALLEPfeile, einschließlich der Spezialpfeile, können "Multischuss" auslösen.`,
+        `ALLE Pfeile, einschließlich der Spezialpfeile, können "Multischuss" auslösen.`,
         "Die speziellen Mulitschuss-Geschosse werden von deiner Munition abgezogen.",
       ],
       color: "green",
@@ -679,7 +679,7 @@ const SkillNodes: SkillNodesType = {
       cost: 4,
     },
     SOUL_LEECH: {
-      name: "SEELNERAUB",
+      name: "SEELENERAUB",
       description: [
         "Wenn du einen Gegner mit einer Nahkampfwaffe tötest, erhalten alle Spieler im Umkreis von 15 Metern um das Ziel 20 Mana.",
       ],
@@ -687,7 +687,7 @@ const SkillNodes: SkillNodesType = {
       cost: 4,
     },
     SHINY_PLATES: {
-      name: "GLÄNZENDE PLATTEM",
+      name: "GLÄNZENDE PLATTEN",
       description: ["Physische Rüstung gewährt 10% mehr physischen Widerstand."],
       color: "red",
       cost: 2,
@@ -943,7 +943,7 @@ const SkillNodes: SkillNodesType = {
       cost: 3,
     },
     REBOUND: {
-      name: "ATEMTECHNI",
+      name: "ATEMTECHNIK",
       description: ["Erhöht Standard-Ausdauerregeneration um 50 %."],
       color: "green",
       cost: 4,
