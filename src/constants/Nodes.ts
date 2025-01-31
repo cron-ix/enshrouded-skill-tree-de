@@ -807,7 +807,7 @@ const SkillNodes: SkillNodesType = {
     },
     FEAST: {
       name: "FESTMAHL",
-      description: ["Fleisch erhöht jetzt die Gesundheit um zusätzliche 15"%.],
+      description: ["Fleisch erhöht jetzt die Gesundheit um zusätzliche 15%.",],
       color: "red",
       cost: 3,
     },
