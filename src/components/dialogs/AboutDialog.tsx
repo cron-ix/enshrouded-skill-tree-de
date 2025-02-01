@@ -83,6 +83,7 @@ const AboutDialog = ({ open, onClose }: PropsType) => {
                     </a>{" "}
                     .
                   </p>
+                  <p>Cheers @Namari</p>
 
                   <div className="w-full flex justify-end">
                     <button
