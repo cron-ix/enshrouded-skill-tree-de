@@ -407,7 +407,7 @@ const SkillNodes: SkillNodesType = {
       ],
       hasAsset: true,
       color: "green",
-      cost: 5,
+      cost: 3,
     },
     COUNTERSTRIKE: {
       name: "GEGENSCHLAG",
