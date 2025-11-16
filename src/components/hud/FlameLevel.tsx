@@ -4,7 +4,7 @@ import { classNames } from "@/utils/utils";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-const MAX_POINTS = 8;
+const MAX_POINTS = 9;
 
 const FlameLevel = () => {
   const [level, setLevel] = useState(1);
