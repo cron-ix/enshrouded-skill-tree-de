@@ -28,7 +28,14 @@ export const getAsset = (
       iconAsset = `skills/${nodeMetadata.unselectedAsset ?? node.type}`;
       lowBrithness = true;
     } else if (hasSpecificAsset) {
-      assetName = nodeMetadata.selectableAsset ?? `${node.type}`;
+      if (nodeMetadata.selectableAsset) {
+        assetName = nodeMetadata.selectableAsset;
+      } else if (nodeMetadata.selectedAsset) {
+        assetName = nodeMetadata.selectedAsset;
+        lowBrithness = true;
+      } else {
+        assetName = node.type;
+      }
     } else if (node.tier === "large" && nodeMetadata.color === "green") {
       assetName = `green_large`;
       lowBrithness = true;
