@@ -12,6 +12,8 @@ export type Node = {
 export type NodeTypeMetadata = {
   name: string;
   description: string[];
+  hasIcon?: boolean;
+  iconOffset?: number;
   hasAsset?: boolean;
   unselectedAsset?: string;
   selectableAsset?: string;
@@ -50,9 +52,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Use your Grappling Hook to pull yourself towards large enemies during combat.",
       ],
-      hasAsset: true,
-      selectableAsset: "giant_slayer_hook_1.png",
-      selectedAsset: "giant_slayer_hook_2.png",
+      hasIcon: true,
       color: "gold",
       cost: 5,
     },
@@ -61,7 +61,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Use your Grappling Hook to pull flying enemies towards you during combat.",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "gold",
       cost: 2,
     },
@@ -210,9 +210,7 @@ const SkillNodes: SkillNodesType = {
         "The <b>Sneak Attack</b> deals massive 10x damage to unaware enemies.",
         "To trigger it, sneak up on an enemy and press <b>[E]</b>.",
       ],
-      hasAsset: true,
-      selectableAsset: "sneak_attack_1.png",
-      selectedAsset: "sneak_attack_2.png",
+      hasIcon: true,
       color: "gold",
       cost: 3,
     },
@@ -222,9 +220,7 @@ const SkillNodes: SkillNodesType = {
         "Perform a Merciless Attack by pressing [E] to deal massive damage to an enemy you've empowered.",
         OVERPOWER,
       ],
-      hasAsset: true,
-      selectableAsset: "merciless_attack_1.png",
-      selectedAsset: "merciless_attack_2.png",
+      hasIcon: true,
       color: "gold",
       cost: 2,
     },
@@ -233,7 +229,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Pressing the jump button while gliding will give you a small height boost. This skill can be used once per flight. Cost: 120 mana",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "green",
       cost: 4,
     },
@@ -243,7 +239,7 @@ const SkillNodes: SkillNodesType = {
         "A magic-powered punch that pushes and stuns hit foes.",
         "Replaces your unarmed attacks as long as you have the necessary mana available: <b>30 Mana</b>",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "blue",
       cost: 3,
     },
@@ -252,7 +248,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "All Fell foes within 10 meters take 1 fire damage per intelligence per second.",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "blue",
       cost: 3,
     },
@@ -261,7 +257,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "You emit a healing aura. It heals all injured allies within 15 meters. The healing scales with your intelligence attribute (1 health for every 2 points of intelligence).",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "blue",
       cost: 3,
     },
@@ -270,7 +266,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "When you are killed by an enemy, all allies within 50 meters will heal 30% of their maximum health.",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "blue",
       cost: 5,
     },
@@ -295,7 +291,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Replaces the Dodge Roll ability with a short range teleport.",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "blue",
       cost: 4,
     },
@@ -305,7 +301,7 @@ const SkillNodes: SkillNodesType = {
         "When equipped with a melee weapon, you can perform an evade attack which dashes towards the enemy and deals more weapon damage with <b>[LMB]</b>",
         BLOCK_BREAKER,
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "red",
       cost: 4,
     },
@@ -314,7 +310,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Shields allies and yourself, reducing incoming damage by 10%",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "red",
       cost: 5,
     },
@@ -323,7 +319,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Whenever an ally draws the attention of an enemy, you draw it in equal measures.",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "red",
       cost: 5,
     },
@@ -334,14 +330,14 @@ const SkillNodes: SkillNodesType = {
         "The shockwave pushes back nearby enemies. It also increases their stun bar, scaling with your strength attribute.",
         OVERPOWER,
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "red",
       cost: 3,
     },
     HEAVY_SPECIALIZATION: {
       name: "HEAVY SPECIALIZATION",
       description: ["Allows you to attack faster with Two-Handed weapons."],
-      hasAsset: true,
+      hasIcon: true,
       color: "red",
       cost: 5,
     },
@@ -350,7 +346,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Your parry bashes the enemy for 20 blunt damage. The damage is increased by your strength attribute.",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "red",
       cost: 5,
     },
@@ -360,11 +356,12 @@ const SkillNodes: SkillNodesType = {
         "When equipped with a Two-Handed weapon, trigger a whirl attack at the end of an attack chain.",
         "<b>Cost</b>: 75 Stamina",
       ],
+      hasIcon: true,
       color: "red",
       cost: 5,
     },
     CRASH_DOWN_ATTACK: {
-      name: "CRASH_DOWN_ATTACK",
+      name: "CRASH DOWN ATTACK",
       description: [
         "When equipped with a Melee weapon, you can perform a jump attack during the descent of your jump.",
         "Crash Down deals 50% more weapon damage in a small blast radius and costs Stamina according to the weapon's weight.",
@@ -377,14 +374,15 @@ const SkillNodes: SkillNodesType = {
     DOUBLE_JUMP: {
       name: "DOUBLE JUMP",
       description: ["Allows jumping a second time while airborne."],
-      hasAsset: true,
+      hasIcon: true,
+      iconOffset: 10,
       color: "green",
       cost: 4,
     },
     DESSERT_STOMACH: {
       name: "DESSERT STOMACH",
       description: ["You gain one additional food slot"],
-      hasAsset: true,
+      hasIcon: true,
       color: "green",
       cost: 4,
     },
@@ -402,7 +400,7 @@ const SkillNodes: SkillNodesType = {
         "Greatly increases the zoom while aiming with a bow.",
         "To aim, hold down the [RMB] while a bow is selected in the Action bar. (Alternatively, hold [Q] to aim your equipped bow.)",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "green",
       cost: 3,
     },
@@ -412,7 +410,7 @@ const SkillNodes: SkillNodesType = {
         "When using regular arrows there is a 20% chance to spawn a flurry of arrows that spread slightly.",
         "This will cost additional arrows, but will not trigger on special arrows.",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "green",
       cost: 3,
     },
@@ -440,7 +438,7 @@ const SkillNodes: SkillNodesType = {
         "When you draw your bow while in the air, your fall is slowed down for a short time. Every shot gives you a small push to get more air time.",
         "Cost: 10 stamina per second",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "green",
       cost: 3,
     },
@@ -450,7 +448,7 @@ const SkillNodes: SkillNodesType = {
         "Infuse your <i>ranged explosives</i> with mana. They now stun enemies for up to 1 second.",
         "Mana Cost: 5 per stunned enemy",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "green",
       cost: 3,
     },
@@ -690,6 +688,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Damaging enemies with wands has a 24% chance to recover 4% mana.",
       ],
+      hasIcon: true,
       color: "blue",
       cost: 3,
     },
@@ -893,6 +892,7 @@ const SkillNodes: SkillNodesType = {
       description: [
         "Allows you to attack faster with one-handed swords and axes.",
       ],
+      hasIcon: true,
       color: "red",
       cost: 5,
     },
@@ -925,7 +925,7 @@ const SkillNodes: SkillNodesType = {
         "Use this skill to rapidly close the distance on <b>flying</b> enemies.",
         "<b>Cost</b>: 25 Stamina",
       ],
-      hasAsset: true,
+      hasIcon: true,
       color: "red",
       cost: 3,
     },
@@ -997,7 +997,7 @@ const SkillNodes: SkillNodesType = {
         SOAKED,
       ],
       color: "red",
-      cost: 4,
+      cost: 2,
     },
     SPLASH_DASH: {
       name: "SPLASH DASH",
@@ -1005,6 +1005,7 @@ const SkillNodes: SkillNodesType = {
         "Allows you to perform an evasive dash while swimming or diving.",
         "<b>Cost</b>: 80 Stamina",
       ],
+      hasIcon: true,
       color: "red",
       cost: 5,
     },
@@ -1233,6 +1234,7 @@ const SkillNodes: SkillNodesType = {
         "<b>Overpower</b><br>Attacking blocking enemies or parrying their attacks fills their <i>Stun Bar</i> until they become <b>overpowered</b>.<br><b>Overpowered</b> enemies are open for Merciless Attacks.",
       ],
       color: "green",
+      hasIcon: true,
       cost: 3,
     },
     AIRBORNE: {
@@ -1327,7 +1329,7 @@ const SkillNodes: SkillNodesType = {
         "Your maximum health is increased fivehold by your intelligence attribute.",
       ],
       color: "blue",
-      hasAsset: true,
+      hasIcon: true,
       cost: 5,
     },
     POISONED_BLADES: {

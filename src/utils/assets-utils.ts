@@ -4,21 +4,30 @@ export const getAsset = (
   node: Node,
   selected: boolean,
   selectable?: boolean
-): [boolean, string] => {
+): [boolean, string, string | undefined, number | undefined] => {
   let assetName = `${node.tier ?? "small"}`;
   let lowBrithness = false;
+  let iconAsset: string | undefined = undefined;
   const nodeMetadata = SkillNodes.types[node.type];
   const hasSpecificAsset = nodeMetadata && nodeMetadata.hasAsset;
+  const hasIcon = nodeMetadata && nodeMetadata.hasIcon;
 
   if (selected) {
-    if (hasSpecificAsset) {
+    if (hasIcon) {
+      assetName = `${nodeMetadata?.color ?? "blue"}_${node.tier ?? "large"}`;
+      iconAsset = `skills/${nodeMetadata.selectedAsset ?? node.type}`;
+    } else if (hasSpecificAsset) {
       assetName = nodeMetadata.selectedAsset ?? node.type;
     } else {
       // TODO: change blue/red/green/gold based on node
       assetName = `${nodeMetadata?.color ?? "blue"}_${node.tier ?? "small"}`;
     }
   } else if (selectable || node.base) {
-    if (hasSpecificAsset) {
+    if (hasIcon) {
+      assetName = `${nodeMetadata?.color ?? "blue"}_${node.tier ?? "large"}`;
+      iconAsset = `skills/${nodeMetadata.unselectedAsset ?? node.type}`;
+      lowBrithness = true;
+    } else if (hasSpecificAsset) {
       assetName = nodeMetadata.selectableAsset ?? `${node.type}`;
     } else if (node.tier === "large" && nodeMetadata.color === "green") {
       assetName = `green_large`;
@@ -27,7 +36,12 @@ export const getAsset = (
       assetName = `${nodeMetadata?.color ?? "blue"}_${node.tier ?? "small"}_2`;
     }
   } else {
-    if (hasSpecificAsset) {
+    if (hasIcon) {
+      assetName = `${node.tier ?? "large"}_gray`;
+      iconAsset = `skills/${
+        nodeMetadata.unselectedAsset ?? node.type + "_GRAY"
+      }`;
+    } else if (hasSpecificAsset) {
       assetName =
         nodeMetadata.unselectedAsset ?? `${node.type.toLowerCase()}_gray`;
     } else {
@@ -45,5 +59,11 @@ export const getAsset = (
   }
 
   if (!assetName.includes(".")) assetName = `${assetName}.png`;
-  return [lowBrithness, `/assets/${assetName}`];
+  if (iconAsset && !iconAsset.includes(".")) iconAsset = `${iconAsset}.png`;
+  return [
+    lowBrithness,
+    `/assets/${assetName}`,
+    iconAsset ? `/assets/${iconAsset}` : undefined,
+    nodeMetadata?.iconOffset,
+  ];
 };

@@ -44,7 +44,7 @@ const SkillNode = ({
   );
   const nodeSize = SIZE[node.tier ?? "small"];
 
-  const [lowBritness, asset] = useMemo(
+  const [lowBritness, asset, iconAsset, iconOffset] = useMemo(
     () => getAsset(node, selected, selectable),
     [node, selected, selectable]
   );
@@ -54,6 +54,9 @@ const SkillNode = ({
     e.stopPropagation();
     if (onSelect) onSelect(node);
   };
+
+  const iconSize =
+    nodeSize.size - (selected || selectable ? 15 : 20) - (iconOffset ?? 0);
 
   if (!node.angle) return null;
 
@@ -89,7 +92,24 @@ const SkillNode = ({
               onShow={() => setTooltipOpen(true)}
               onHide={() => setTooltipOpen(false)}
             />
-            <button onClick={selectHandler}>
+            <button className="relative" onClick={selectHandler}>
+              {iconAsset && (
+                <div
+                  className="absolute inset-0 flex items-center justify-center z-10"
+                  data-tooltip-id={`skill-tooltip-${node.id}`}
+                >
+                  <Image
+                    className={classNames(
+                      "object-contain !pointer-events-auto",
+                      lowBritness && "brightness-50"
+                    )}
+                    src={iconAsset}
+                    alt={node.type}
+                    width={iconSize}
+                    height={iconSize}
+                  />
+                </div>
+              )}
               <Image
                 src={asset}
                 alt={node.type}
