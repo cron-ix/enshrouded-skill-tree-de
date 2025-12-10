@@ -1232,8 +1232,8 @@ const SkillNodes: SkillNodesType = {
     KICK: {
       name: "KICK",
       description: [
-        "Mit einer Nahkampfwaffe ausgerüstet kannst di während dem Block einen Kick durchführen."
-        "KKicken verursacht wenig Schaden, aber trifft den Gegner mit grißer Wucht, wodurch er zurückgedrängt wird und sein <i>Betäubungsbalken</i> gefüllt wird.",
+        "Mit einer Nahkampfwaffe ausgerüstet kannst di während dem Block einen Kick durchführen.",
+        "Kicken verursacht wenig Schaden, aber trifft den Gegner mit grißer Wucht, wodurch er zurückgedrängt wird und sein <i>Betäubungsbalken</i> gefüllt wird.",
         "Der <i>Betäubungsbalken</i> füllt sich abhängig stark von deiner Geschicklichkeit. Die Betäubungszeit hängt von der Größe des Gegners ab.",
         "<b>überwältigen</b><br>Wenn du blockende Gegner angreifst oder ihre Angriffe parierst, füllt sich ihr <i>Betäubungsbalken</i>, bis sie <b>überwältigt werden. Gegen überwältigte Gegner kannst du einen Gnadenlosen Angriff durchführen.",
       ],
