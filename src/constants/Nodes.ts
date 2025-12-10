@@ -37,9 +37,9 @@ export const LinesAngles = [
 const SHROUD_TIME_TEXT =
   "<b>Miasma-Zeit</b><br/>Läuft diese Zeit aus, wird das Miasma dich verschlingen.";
 const BLOCK_BREAKER =
-  "<b>Block Brecher</b><br/>Dieser Spezialangriff erh&ouml;ht die Bet&auml;ubungsleiste eines Gegners um das Doppelte, wenn er getroffen wird.";
+  "<b>Block Brecher</b><br/>Dieser Spezialangriff erhöht die Betäubungsleiste eines Gegners um das Doppelte, wenn er getroffen wird.";
 const OVERPOWER =
-  "<b>&Uuml;berw&auml;ltigen</b><br/>Um einen Gegner zu &uuml;berw&auml;ltigen, f&uuml;llst die seine Bet&auml;ubungsleiste, indem du angreifst, w&auml;hrend er blockt oder seine Angriffe parierst.";
+  "<b>überwältigen</b><br/>Um einen Gegner zu überwältigen, füllst die seine Betäubungsleiste, indem du angreifst, während er blockt oder seine Angriffe parierst.";
 const WET =
   "<b>Wet</b><br/>Reduces Stamina and Stamina Regeneration by <b>30%</b> for <b>15</b> minutes. Warmth reduces the remaining duration.";
 const SOAKED =
@@ -50,7 +50,7 @@ const SkillNodes: SkillNodesType = {
     GIANT_SLAYER_HOOK: {
       name: "RIESENTÖTER-HAKEN",
       description: [
-        "Benutze deinen Greifhaken, um dich im Kampf zu gro&szlig;en Feinden zu ziehen.",
+        "Benutze deinen Greifhaken, um dich im Kampf zu großen Feinden zu ziehen.",
       ],
       hasIcon: true,
       color: "gold",
@@ -68,21 +68,21 @@ const SkillNodes: SkillNodesType = {
     SAVIOUR: {
       name: "ERLÖSER",
       description: [
-        "Du ben&ouml;tigst nur 3 statt 6 Sekunden, um einen <b>Verb&uuml;ndeten wiederzubeleben.</b>",
+        "Du benötigst nur 3 statt 6 Sekunden, um einen <b>Verbündeten wiederzubeleben.</b>",
       ],
       color: "gold",
       cost: 2,
     },
     BACKSTAB_DAMAGE: {
       name: "HINTERHALT-SCHADEN",
-      description: ["Erh&ouml;ht den Schaden, den du von hinten verursachst, um 25%."],
+      description: ["Erhöht den Schaden, den du von hinten verursachst, um 25%."],
       color: "gold",
       cost: 2,
     },
     OPPORTUNITY: {
       name: "GELEGENHEIT",
       description: [
-        "Erh&ouml;ht den Multiplikator des Gnadenlosen Angriffs und des Schleichangriffs um 100%.",
+        "Erhöht den Multiplikator des Gnadenlosen Angriffs und des Schleichangriffs um 100%.",
       ],
       color: "gold",
       cost: 3,
@@ -90,7 +90,7 @@ const SkillNodes: SkillNodesType = {
     MINER: {
       name: "BERGARBEITER",
       description: [
-        "Beim Abbau von Ressourcen besteht eine Chance von 10%, zus&auml;tzlich Ressourcen zu gewinnen.",
+        "Beim Abbau von Ressourcen besteht eine Chance von 10%, zusätzlich Ressourcen zu gewinnen.",
       ],
       color: "gold",
       cost: 4,
@@ -98,7 +98,7 @@ const SkillNodes: SkillNodesType = {
     LUMBERJACK: {
       name: "HOLZFÄLLER",
       description: [
-        "Holzf&auml;ller-&Auml;xte verursachen 30% mehr Schaden gegen Holzobjekte, einschlie&szlig;lich B&auml;ume.",
+        "Holzfäller-äxte verursachen 30% mehr Schaden gegen Holzobjekte, einschließlich Bäume.",
       ],
       color: "gold",
       cost: 2,
@@ -112,16 +112,16 @@ const SkillNodes: SkillNodesType = {
     MASON: {
       name: "STEINMETZ",
       description: [
-        "Die Spitzhacke verursacht 30% mehr Schaden gegen Steinobjekt, einschlie&szlig; Ressourcenadern.",
+        "Die Spitzhacke verursacht 30% mehr Schaden gegen Steinobjekt, einschließ Ressourcenadern.",
       ],
       color: "gold",
       cost: 2,
     },
     FISHERMANS_RESOLVE: {
-      name: "FISHERMAN'S RESOLVE",
+      name: "ENTSCHLOSSENE FISCHER",
       description: [
-        "Increases your Fishing Endurance by <b>30%</b>.",
-        "Allows for extended battles with hooked fish.",
+        "Erhöht deine Angelausdauer um <b>30%</b>.",
+        "Ermöglicht längere Kämpfe mit angebissenen Fischen",
       ],
       color: "gold",
       cost: 5,
@@ -129,8 +129,8 @@ const SkillNodes: SkillNodesType = {
     POWER_PARRY: {
       name: "PRACHTPARADE",
       description: [
-        "L&auml;sst den Gegner bei Parierangriffen schneller bet&auml;ubt werden.",
-        "<b>Parieren</b><br>Wenn du mit einem Schild ausger&uuml;stet bist, dr&uuml;cke <b>[Rechte Maustaste],</b> um zu blocken. Ein gut getimter Block <b>pariert</b> den Angriff.",
+        "Lässt den Gegner bei Parierangriffen schneller betäubt werden.",
+        "<b>Parieren</b><br>Wenn du mit einem Schild ausgerüstet bist, drücke <b>[Rechte Maustaste],</b> um zu blocken. Ein gut getimter Block <b>pariert</b> den Angriff.",
       ],
       color: "gold",
       cost: 2,
@@ -138,8 +138,8 @@ const SkillNodes: SkillNodesType = {
     ATTR_SPIRIT: {
       name: "WILLENSKRAFT",
       description: [
-        "Erh&ouml;ht dein Willenskraftattribut um 1.",
-        "Erh&ouml;ht das Mana um 20 pro Attributspunkt.",
+        "Erhöht dein Willenskraftattribut um 1.",
+        "Erhöht das Mana um 20 pro Attributspunkt.",
       ],
       color: "blue",
       cost: 1,
@@ -148,8 +148,8 @@ const SkillNodes: SkillNodesType = {
     ATTR_INT: {
       name: "INTELLIGENZ",
       description: [
-        "Erh&ouml;ht dein Intelligenzattribut um 1.",
-        "Erh&ouml;ht den Magieschaden um 5% pro Attributspunkt.",
+        "Erhöht dein Intelligenzattribut um 1.",
+        "Erhöht den Magieschaden um 5% pro Attributspunkt.",
       ],
       color: "blue",
       cost: 1,
@@ -158,8 +158,8 @@ const SkillNodes: SkillNodesType = {
     ATTR_CONS: {
       name: "KONSTITUTION",
       description: [
-        "Erh&ouml;ht dein Konstitutionsattribut um 1.",
-        "Erh&ouml;ht deine Gesundheit um 50 pro Attributspunkt.",
+        "Erhöht dein Konstitutionsattribut um 1.",
+        "Erhöht deine Gesundheit um 50 pro Attributspunkt.",
       ],
       color: "red",
       cost: 1,
@@ -168,8 +168,8 @@ const SkillNodes: SkillNodesType = {
     ATTR_STR: {
       name: "STÄRKE",
       description: [
-        "Erh&ouml;ht dein St&auml;rkeattribut um 1.",
-        "Erh&ouml;ht den Nahkampfschaden um 5% pro Attributspunkt.",
+        "Erhöht dein Stärkeattribut um 1.",
+        "Erhöht den Nahkampfschaden um 5% pro Attributspunkt.",
       ],
       color: "red",
       cost: 1,
@@ -178,8 +178,8 @@ const SkillNodes: SkillNodesType = {
     ATTR_ENDURANCE: {
       name: "KONDITION",
       description: [
-        "Erh&ouml;ht dein Konditionsattribut um 1.",
-        "Erh&ouml;ht die Ausdauer um 10 pro Attributspunkt.",
+        "Erhöht dein Konditionsattribut um 1.",
+        "Erhöht die Ausdauer um 10 pro Attributspunkt.",
       ],
       color: "green",
       cost: 1,
@@ -188,8 +188,8 @@ const SkillNodes: SkillNodesType = {
     ATTR_DEX: {
       name: "GESCHICK",
       description: [
-        "Erh&ouml;ht dein Geschickattribut um 1.",
-        "Erh&ouml;ht den Schaden von B&ouml;gen und Dolchen um 5% pro Attributspunkt.",
+        "Erhöht dein Geschickattribut um 1.",
+        "Erhöht den Schaden von Bögen und Dolchen um 5% pro Attributspunkt.",
       ],
       color: "green",
       cost: 1,
@@ -198,8 +198,8 @@ const SkillNodes: SkillNodesType = {
     WELL_RESTED: {
       name: "GUT AUSGERUHT",
       description: [
-        "Die Grunddauer f&uuml;r den Ausgeruht Buff wird um 5 Minuten erh&ouml;ht.",
-        "Erh&ouml;he den Komfort in deiner Basis, um die Dauer weiter zu verl&auml;ngern.",
+        "Die Grunddauer für den Ausgeruht Buff wird um 5 Minuten erhöht.",
+        "Erhöhe den Komfort in deiner Basis, um die Dauer weiter zu verlängern.",
       ],
       color: "gold",
       cost: 1,
@@ -207,8 +207,8 @@ const SkillNodes: SkillNodesType = {
     SNEAK_ATTACK: {
       name: "SCHLEICHANGRIFF",
       description: [
-        "Der <b>Schleichangriff</b> f&uuml;gt ahnungslosen Gegnern massiven 10-fachen Schaden zu.",
-        "Um ihn auszul&ouml;sen, schleiche dich an einen Gegner heran und dr&uuml;cke <b>[E]</b>.",
+        "Der <b>Schleichangriff</b> fügt ahnungslosen Gegnern massiven 10-fachen Schaden zu.",
+        "Um ihn auszulösen, schleiche dich an einen Gegner heran und drücke <b>[E]</b>.",
       ],
       hasIcon: true,
       color: "gold",
@@ -217,7 +217,7 @@ const SkillNodes: SkillNodesType = {
     MERCILESS_ATTACK: {
       name: "GNADENLOSER ANGRIFF",
       description: [
-        "F&uuml;hre einen gnadenlosen Angriff aus, indem du [E] dr&uuml;ckst, um einen Gegner, den du &uuml;berw&auml;ltigt hast, massiven Schaden zuzuf&uuml;gen.",
+        "Führe einen gnadenlosen Angriff aus, indem du [E] drückst, um einen Gegner, den du überwältigt hast, massiven Schaden zuzufügen.",
         OVERPOWER,
       ],
       hasIcon: true,
@@ -272,17 +272,17 @@ const SkillNodes: SkillNodesType = {
       cost: 5,
     },
     DIVINE_SURGE: {
-      name: "DIVINE SURGE",
+      name: "GÖTTLICHE WOGE",
       description: [
-        "Healing spells can perform Critical Strikes that scale with your Critical Strike Damage.",
+        "Heilungszauber können kritische Treffer landen, die mit dem kritischen Trefferschaden skalieren",
       ],
       color: "blue",
       cost: 5,
     },
     RIGHTEOUS_FIRE: {
-      name: "RIGHTEOUS FIRE",
+      name: "GERECHTES FEUER",
       description: [
-        "Healing any target with a spell triggers a burst of fire that deals <b>50%</b> of the heal amount as <b>Fire</b> damage to nearby <b>Fell</b> enemies.",
+        "Wenn ein Ziel mit einem Zauber geheilt wird, wird ein Feuerstoß ausgelöst, der in Höhe von <b>50 %</b> der Heilung <b>Feuerschaden</b> an nahegelegenen <b>Brut</b> Feinden verursacht.",
       ],
       color: "blue",
       cost: 5,
@@ -362,10 +362,10 @@ const SkillNodes: SkillNodesType = {
       cost: 5,
     },
     CRASH_DOWN_ATTACK: {
-      name: "SPRUNGANGRIFF",
+      name: "STURZANGRIFF",
       description: [
-        "Wenn du mit einer Nahkampfwaffe ausgerüstet bist, kannst du einen Sprungangriff ausführen, der 50% mehr Waffenschaden in einem kleinen Explosionsradius verursacht.",
-        "Der Sprungangriff kostet Ausdauer entsprechend dem Gewicht der Waffe. Funktioniert nicht mit Werkzeugen.",
+        "Mit einer Nahkampfwaffe ausgerüstet kannst du während der Abwärtsbewegung deines Sprunges einen Sturzangriff ausführen.",
+        "Der Sturzangriff verursacht 50% mehr Waffenschaden in einem kleinen Exposionsradius und verbraucht Ausdauer entsprechend dem Gewicht der Waffe..",
         "<b>Kosten</b>: 35-60 Ausdauer",
         BLOCK_BREAKER,
       ],
@@ -391,9 +391,9 @@ const SkillNodes: SkillNodesType = {
       cost: 4,
     },
     LAST_MEAL: {
-      name: "LAST MEAL",
+      name: "HENKERSMAHLZEIT",
       description: [
-        "Your Food buffs persist through death, but they last half as long.",
+        "Deine Essensbuffs bleiben nach dem Tod erhalten, halten aber nur halb so lange.",
       ],
       color: "green",
       cost: 5,
@@ -474,9 +474,9 @@ const SkillNodes: SkillNodesType = {
       cost: 4,
     },
     SHOCK_RESISTANCE: {
-      name: "SHOCK RESISTANCE",
+      name: "SCHOCKRESISTENZ",
       description: [
-        "Increases your <b>Shock Resistance</b> by <b>5%</b> which reduces the amount of <b>Shock</b> damage received.",
+        "Erhöht deine <b>Schockresistenz</b> um <b>5%</b>, wodurch du weniger <b>Schockschaden</b> erleidest.",
       ],
       color: "blue",
       cost: 2,
@@ -518,9 +518,9 @@ const SkillNodes: SkillNodesType = {
       cost: 2,
     },
     FIRE_RESISTANCE: {
-      name: "FIRE RESISTANCE",
+      name: "FEUERBESTÄNDIGKEIT",
       description: [
-        "Increases your <b>Fire Resistance</b> by <b>5%</b> which reduces the amount of <b>Fire</b> damage received.",
+        "Erhöht deine <b>Feuerresistenz</b> um <b>5%</b>, wodurch du weniger <b>Feuerschaden</b> erleidest.",
       ],
       color: "blue",
       cost: 2,
@@ -533,19 +533,19 @@ const SkillNodes: SkillNodesType = {
     },
     LIGHTNING: {
       name: "BLITZ",
-      description: ["Jeglicher Schockschaden wird zusätzlich um 20 % erhöht."],
+      description: ["Jeglicher Schockschaden wird zusätzlich um 20% erhöht."],
       color: "blue",
       cost: 3,
     },
     ICEMAN: {
       name: "EISKALT",
-      description: ["Jeglicher Eisschaden wird um zusätzlich 10 % erhöht."],
+      description: ["Jeglicher Eisschaden wird um zusätzlich 10% erhöht."],
       color: "blue",
       cost: 2,
     },
     SUBZERO: {
       name: "FROSTBISS",
-      description: ["Jeglicher Eisschaden wird um zusätzlich 20 % erhöht."],
+      description: ["Jeglicher Eisschaden wird um zusätzlich 20% erhöht."],
       color: "blue",
       cost: 3,
     },
@@ -558,9 +558,9 @@ const SkillNodes: SkillNodesType = {
       cost: 3,
     },
     ICE_RESISTANCE: {
-      name: "ICE RESISTANCE",
+      name: "EISBESTÄNDIGKEIT",
       description: [
-        "Increases your <b>Ice Resistance</b> by <b>5%</b> which reduces the amount of <b>Ice</b> damage received.",
+        "Erhöht deine <b>Eisbestädigkeit</b> um <b>5%</b>, wodurch du weniger <b>Eisschaden</b> erleidest.",
       ],
       color: "blue",
       cost: 2,
@@ -575,13 +575,13 @@ const SkillNodes: SkillNodesType = {
     },
     DARK_ARTS: {
       name: "DUNKLE KÜNSTE",
-      description: ["Jeglicher Miasma-Schaden wird um zusätzlich 10 % erhöht."],
+      description: ["Jeglicher Miasma-Schaden wird um zusätzlich 10% erhöht."],
       color: "blue",
       cost: 3,
     },
     ABYSS: {
       name: "ABGRUND",
-      description: ["Jeglicher Miasma-Schaden wird um zusätzlich 20 % erhöht."],
+      description: ["Jeglicher Miasma-Schaden wird um zusätzlich 20% erhöht."],
       color: "blue",
       cost: 4,
     },
@@ -612,21 +612,21 @@ const SkillNodes: SkillNodesType = {
     HEALER: {
       name: "HEILER",
       description: [
-        "Die Regeneration durch Heilzauber wird um 10 % erhöht.",
+        "Die Regeneration durch Heilzauber wird um 10% erhöht.",
       ],
       color: "blue",
       cost: 2,
     },
     HEALER_II: {
       name: "HEILER II",
-      description: ["Die Regeneration durch Heilzauber wird um zusätzliche 20 % erhöht."],
+      description: ["Die Regeneration durch Heilzauber wird um zusätzliche 20% erhöht."],
       color: "blue",
       cost: 2,
     },
     HEALING_REVIVE: {
       name: "NEUE BLÜTE",
       description: [
-        "Die Gesundheit wiederbelebter Spieler wird um 25 % statt um 10 % wiederhergestellt.",
+        "Die Gesundheit wiederbelebter Spieler wird um 25 % statt um 10% wiederhergestellt.",
       ],
       color: "blue",
       cost: 2,
@@ -634,7 +634,7 @@ const SkillNodes: SkillNodesType = {
     SHROUD_FILTER: {
       name: "MIASMA-FILTER",
       description: [
-        "Wenn du Magiewaffen-Schaden verursachst, besteht eine Chance von 15 %, einen kleinen Flammenstoß auszulösen, der für dich und deine Verbündeten innerhalb von 20 Metern 30 Sekunden <i>Miasma-Zeit</i> wiederherstellt.",
+        "Wenn du Magiewaffen-Schaden verursachst, besteht eine Chance von 15%, einen kleinen Flammenstoß auszulösen, der für dich und deine Verbündeten innerhalb von 20 Metern 30 Sekunden <i>Miasma-Zeit</i> wiederherstellt.",
         SHROUD_TIME_TEXT,
       ],
       color: "blue",
@@ -649,17 +649,17 @@ const SkillNodes: SkillNodesType = {
       cost: 2,
     },
     SHROUD_RESISTANCE: {
-      name: "SHROUD RESISTANCE",
+      name: "MIASMARESISTENZ",
       description: [
-        "Increases <b>Shroud Resistance</b> by <b>5%</b> which reduces the amount of <b>Shroud</b> damage received.",
+        "Erhöht deine <b>Miasma-Resistenz</b> um <b>5%</b>, wodurch du weniger <b>Miasma-Schaden</b> erleidest.",
       ],
       color: "blue",
       cost: 2,
     },
     SHROUD_MISTERY: {
-      name: "SHROUD MYSTERY",
+      name: "GETEILTES LEID",
       description: [
-        "When you receive <b>Shroud</b> damage, all players within <b>20</b>-meters receive <b>15%</b> increased <b>Shroud Resistance</b> for <b>30</b> seconds.",
+        "Wenn du <b>Miasma-Schaden</b> erleidest, erhalten alle Spieler im Umkreis von <b>20</b> Metern <b>15%</b> mehr <b>Miasma-Resistenz</b> für <b>30</b> Sekunden.",
       ],
       color: "blue",
       cost: 6,
@@ -714,14 +714,14 @@ const SkillNodes: SkillNodesType = {
     },
     STING: {
       name: "STACHEL",
-      description: ["Wiederholter Schaden mit einem Zauberstab wird um 20 % erhöht."],
+      description: ["Wiederholter Schaden mit einem Zauberstab wird um 20% erhöht."],
       color: "blue",
       cost: 3,
     },
     BATTLE_HEAL: {
       name: "KAMPFHEILUNG",
       description: [
-        "Wenn du mit einer Nahkampfwaffe krit. Schaden verursachst, heilst du 5 % deiner max. Gesundheit.",
+        "Wenn du mit einer Nahkampfwaffe krit. Schaden verursachst, heilst du 5% deiner max. Gesundheit.",
       ],
       color: "red",
       cost: 3,
@@ -730,7 +730,7 @@ const SkillNodes: SkillNodesType = {
       name: "ADERLASS",
       description: [
         "Wenn du mit einem Zauberspruch einen kritischen Treffer landest, besteht eine 50%ige Chance, 2 Gesundheits-, Mana- und/oder Ausdauer Orbs zu spawnen.",
-        "Ds Sammeln der Orbs füllt 10% der jeweiligen Ressource wieder auf.",
+        "Das Sammeln der Orbs füllt 10% der jeweiligen Ressource wieder auf.",
       ],
       color: "blue",
       cost: 3,
@@ -755,14 +755,14 @@ const SkillNodes: SkillNodesType = {
     ABSORB: {
       name: "ABSORBIEREN",
       description: [
-        "Wenn du Magieschaden erleidest, besteht eine Chance von 10 %, für jeden verlorenen Lebenspunkt 1 Mana zu erzeugen.",
+        "Wenn du Magieschaden erleidest, besteht eine Chance von 10%, für jeden verlorenen Lebenspunkt 1 Mana zu erzeugen.",
       ],
       color: "red",
       cost: 3,
     },
     SNAP: {
       name: "ÜBERSCHNAPPEN",
-      description: ["Stellt 10 % Mana wieder her, wenn ein Gnadenloser Angriff erfolgt."],
+      description: ["Stellt 10% Mana wieder her, wenn ein Gnadenloser Angriff erfolgt."],
       color: "red",
       cost: 4,
     },
@@ -791,7 +791,7 @@ const SkillNodes: SkillNodesType = {
     WARDEN: {
       name: "WÄCHTER",
       description: [
-        "Wenn sich drei oder mehr Feinde im Umkreis von 20 Metern befinden, erleidest du 15 % weniger Magieschaden.",
+        "Wenn sich drei oder mehr Feinde im Umkreis von 20 Metern befinden, erleidest du 15% weniger Magieschaden.",
       ],
       color: "red",
       cost: 3,
@@ -799,7 +799,7 @@ const SkillNodes: SkillNodesType = {
     TOWER: {
       name: "TURM",
       description: [
-        "Wenn sich drei oder mehr Feinde im Umkreis von 20 Metern befinden, erleidest du 10 % weniger physischen Schaden.",
+        "Wenn sich drei oder mehr Feinde im Umkreis von 20 Metern befinden, erleidest du 10% weniger physischen Schaden.",
       ],
       color: "red",
       cost: 3,
@@ -824,7 +824,7 @@ const SkillNodes: SkillNodesType = {
     WARRIOR_PATH: {
       name: "DER WEG DES KRIEGERS",
       description: [
-        "Beim Angriff mit einer Nahkampfwaffe wird jeglicher Schaden um 10 % erhöht.",
+        "Beim Angriff mit einer Nahkampfwaffe wird jeglicher Schaden um 10% erhöht.",
       ],
       color: "red",
       cost: 2,
@@ -832,7 +832,7 @@ const SkillNodes: SkillNodesType = {
     THRUST: {
       name: "PFÄHLER",
       description: [
-        "Jeglicher Nahkampf-Stichschaden wird um zusätzliche 10 % erhöht.",
+        "Jeglicher Nahkampf-Stichschaden wird um zusätzliche 10% erhöht.",
       ],
       color: "red",
       cost: 2,
@@ -840,7 +840,7 @@ const SkillNodes: SkillNodesType = {
     PIERCE: {
       name: "LANZER",
       description: [
-        "Jeglicher Nahkamp-Stichschaden wird um zusätzliche 20 % ehöht.",
+        "Jeglicher Nahkampf-Stichschaden wird um zusätzliche 20% ehöht.",
       ],
       color: "red",
       cost: 3,
@@ -848,7 +848,7 @@ const SkillNodes: SkillNodesType = {
     BRUTE: {
       name: "ROHLING",
       description: [
-        "Jeglicher Nahkamp-Wuchtschaden wird um zusätzliche 10 % erhöht.",
+        "Jeglicher Nahkampf-Wuchtschaden wird um zusätzliche 10% erhöht.",
       ],
       color: "red",
       cost: 2,
@@ -856,7 +856,7 @@ const SkillNodes: SkillNodesType = {
     HAMMER_TIME: {
       name: "HAMMERHART",
       description: [
-        "Jeglicher Nahkamp-Wuchtschaden wird um zusätzliche 20 % erhöht.",
+        "Jeglicher Nahkampf-Wuchtschaden wird um zusätzliche 20% erhöht.",
       ],
       color: "red",
       cost: 3,
@@ -864,7 +864,7 @@ const SkillNodes: SkillNodesType = {
     SLASHER: {
       name: "SCHLITZER",
       description: [
-        "Alle Nahkampf-Schnittschäden werden um 10 % erhöht.",
+        "Alle Nahkampf-Schnittschäden werden um 10% erhöht.",
       ],
       color: "red",
       cost: 2,
@@ -872,7 +872,7 @@ const SkillNodes: SkillNodesType = {
     BUTCHER: {
       name: "SCHLÄCHTER",
       description: [
-        "Alle Nahkampf-Schnittschäden werden um zusätzliche 20 % erhöht.",
+        "Alle Nahkampf-Schnittschäden werden um zusätzliche 20% erhöht.",
       ],
       color: "red",
       cost: 3,
@@ -880,14 +880,14 @@ const SkillNodes: SkillNodesType = {
     VETERAN: {
       name: "VETERAN",
       description: [
-        "Beim Angriff mit einer Nahkampfwaffe erhöht sich deine Krit. Trefferchance um 10 %.",
+        "Beim Angriff mit einer Nahkampfwaffe erhöht sich deine Krit. Trefferchance um 10%.",
       ],
       color: "red",
       cost: 4,
     },
     TITAN_EDGE: {
-      name: "TITAN EDGE",
-      description: ["Greatswords damage is increased by <b>10%</b>."],
+      name: "TITANSCHNEIDE",
+      description: ["Der Großschwertschaden wird um <b>10%</b> erhöht."],
       color: "red",
       cost: 4,
     },
@@ -923,11 +923,11 @@ const SkillNodes: SkillNodesType = {
       cost: 3,
     },
     UPWARDS_SLASH_ATTACK: {
-      name: "UPWARDS SLASH ATTACK",
+      name: "AUFWÄRTSANGRIFF",
       description: [
-        "When equipped with a Melee weapon, launch a powerful upward strike during the ascent of your jump.",
-        "Use this skill to rapidly close the distance on <b>flying</b> enemies.",
-        "<b>Cost</b>: 25 Stamina",
+        "Wenn du mit einer Nahkampfwaffe ausgerüstest bist, kannst du während des aufsteigenden Teils deines Sprungs einen mächtigen Schlag nach oben ausführen.",
+        "Nutze diese Fähigkeit, um den Abstand zu <b>fliegenden</b> Gegnern schnell zu verringern.",
+        "<b>Kosten</b>: 25 Ausdauer",
       ],
       hasIcon: true,
       color: "red",
@@ -945,7 +945,7 @@ const SkillNodes: SkillNodesType = {
     RELENTLESS: {
       name: "UNBARMHERZIG",
       description: [
-        "Wenn du mit einer zweihändigen Waffe krit. Schaden verursachst, erhöht sich die Chance, dass der nächste Treffer ein krit. Treffer wird, um weitere 10 %.",
+        "Wenn du mit einer zweihändigen Waffe krit. Schaden verursachst, erhöht sich die Chance, dass der nächste Treffer ein krit. Treffer wird, um weitere 10%.",
       ],
       color: "red",
       cost: 5,
@@ -961,7 +961,7 @@ const SkillNodes: SkillNodesType = {
     BLOOD_RAGE: {
       name: "BLUTRAUSCH",
       description: [
-        "Wenn ein Gegner innerhlab von 10 Metern mit einer Nahkampfwaffe getötet wird, wird jeglicher mit Nahkampfwaffen verursachte Schaden 10 Sekunden lang um 20 % erhöht.",
+        "Wenn ein Gegner innerhlab von 10 Metern mit einer Nahkampfwaffe getötet wird, wird jeglicher mit Nahkampfwaffen verursachte Schaden 10 Sekunden lang um 20% erhöht.",
       ],
       color: "red",
       cost: 5,
@@ -982,10 +982,10 @@ const SkillNodes: SkillNodesType = {
       cost: 3,
     },
     WET_DOG: {
-      name: "WET DOG",
+      name: "NASSER HUND",
       description: [
-        "Weakens the effect of the <b>Wet</b> and <b>Soaked</b> debuffs.",
-        "Stamina and Stamina Regeneration are reduced by <b>20%</b> instead of <b>30%</b>.",
+        "Schächt die Wirkung des <b>Nass</b> und <b>Durchnässt</b> Debuffs",
+        "Ausdauer und Ausdauerregeneration werden um <b>20%</b> statt <b>30%</b> reduziert.",
         WET,
         SOAKED,
       ],
@@ -993,10 +993,10 @@ const SkillNodes: SkillNodesType = {
       cost: 4,
     },
     SOAKED_DOG: {
-      name: "SOAKED DOG",
+      name: "DURCHNÄSSTER HUND",
       description: [
-        "Weakens the effect of the <b>Wet</b> and <b>Soaked</b> debuffs.",
-        "Stamina and Stamina Regeneration are reduced by <b>10%</b> instead of <b>20%</b>.",
+        "Schwächt die Wirkung des <b>Nass</b> und <b>Durchnässt</b> Debuffs.",
+        "Ausdauer und Ausdauerregeneration werden um <b>10%</b> statt <b>20%</b> reduziert.",
         WET,
         SOAKED,
       ],
@@ -1004,10 +1004,10 @@ const SkillNodes: SkillNodesType = {
       cost: 2,
     },
     SPLASH_DASH: {
-      name: "SPLASH DASH",
+      name: "WASSERSTOSS",
       description: [
-        "Allows you to perform an evasive dash while swimming or diving.",
-        "<b>Cost</b>: 80 Stamina",
+        "Ermöglicht es dir, beim Schwimmen oder Tauchen einen Ausweichangriff zu machen.",
+        "<b>Kosten</b>: 80 Ausdauer",
       ],
       hasIcon: true,
       color: "red",
@@ -1022,9 +1022,9 @@ const SkillNodes: SkillNodesType = {
       cost: 3,
     },
     JUMP_ATTACK_II: {
-      name: "SPRUNGANGRIFF II",
+      name: "STURZFLUG",
       description: [
-        "Wenn du mit einer Nahkampfwaffe ausgerüstest bis, verursacht ein Angriff aus einem Doppelsprung zusätzlich 20% Waffenschaden.",
+        "Wenn du aus einem Doppelsprung heraus angreifst, verursacht <b>Sturzflug 20%</b> mehr Waffenschaden.",
       ],
       color: "green",
       cost: 3,
@@ -1038,7 +1038,7 @@ const SkillNodes: SkillNodesType = {
     RUNNER: {
       name: "LÄUFER",
       description: [
-        "Sprint-Geschwindigkeit wird um 10 % erhöht. Ausdauerverbrauch wird um 10 % reduziert.",
+        "Sprint-Geschwindigkeit wird um 10% erhöht. Ausdauerverbrauch wird um 10% reduziert.",
       ],
       color: "green",
       cost: 2,
@@ -1070,7 +1070,7 @@ const SkillNodes: SkillNodesType = {
     },
     SWEET_TOOTH: {
       name: "SCHLECKERMAUL",
-      description: ["Die Ausdauerregeneration durch Süßes wird um 50 % erhöht."],
+      description: ["Die Ausdauerregeneration durch Süßes wird um 50% erhöht."],
       color: "green",
       cost: 3,
     },
@@ -1082,13 +1082,13 @@ const SkillNodes: SkillNodesType = {
     },
     REBOUND: {
       name: "ATEMTECHNIK",
-      description: ["Erhöht Standard-Ausdauerregeneration um 50 %."],
+      description: ["Die Basis-Ausdauerregeneration ist um <b>10%</b> erhöht."],
       color: "green",
       cost: 2,
     },
     REBOUND_II: {
       name: "REBOUND",
-      description: ["Increase base stamina regeneration by 50%"],
+      description: ["Die Basis-Ausdauerregeneration ist um <b>10%</b> erhöht."],
       color: "green",
       cost: 4,
     },
@@ -1113,7 +1113,7 @@ const SkillNodes: SkillNodesType = {
     SNAKE_EATER: {
       name: "SCHLANGENFRESSER",
       description: [
-        "Erhöht den <b> -Giftwiderstand</b>, der den erhaltenen Giftschaden um <b>20%</b> reduziert.",
+        "Erhöht den <b>Giftwiderstand</b>, der den erhaltenen Giftschaden um <b>20%</b> reduziert.",
       ],
       color: "green",
       cost: 2,
@@ -1121,8 +1121,8 @@ const SkillNodes: SkillNodesType = {
     MITHRIDATIST: {
       name: "GIFTIMMUNITÄT",
       description: [
-        "Deiner Giftresistenz wird um zusätzliche 10% erhöht. Du erhältst eine Chance von 25%, Vergiftungen vollständig zu vermeiden.",
-        "You also gain a 25% chance to avoid being poisoned.",
+        "Erhöht deine <b>Giftresistenz</b> um <b>10%</b>, wodurch du weniger <b>Giftschaden</b> erleidest.",
+        "Du erhältst außerdem eine Chance von <b>25%</b> nicht vergiftet zu werden.",
       ],
       color: "green",
       cost: 3,
@@ -1183,19 +1183,19 @@ const SkillNodes: SkillNodesType = {
     },
     MARKSMAN: {
       name: "SCHÜTZE",
-      description: ["Jeglicher Fernkampfschaden wird um 10 % erhöht."],
+      description: ["Jeglicher Fernkampfschaden wird um 10% erhöht."],
       color: "green",
       cost: 2,
     },
     SHARPSHOOTER: {
       name: "SCHARFSCHÜTZE",
-      description: ["Jeglicher Fernkampfschaden wird um 20 % erhöht."],
+      description: ["Jeglicher Fernkampfschaden wird um 20% erhöht."],
       color: "green",
       cost: 2,
     },
     COUNTER_BATTERY: {
       name: "KONTERSALVE",
-      description: ["+15 % Schaden gegen Fernkampf-Gegner."],
+      description: ["Der Schaden gegen <b>Fernkampfgegner</b> wird um <b>15%</b> erhöht."],
       color: "green",
       cost: 2,
     },
@@ -1214,7 +1214,7 @@ const SkillNodes: SkillNodesType = {
     RANGER: {
       name: "WALDLÄUFER",
       description: [
-        "+2 Kondition<br>+2 Geschick<br>+5 Ausdauer Regeneration<br>+5% Krit. Chance<br>+5% Krit. Schaden",
+        "+2 Kondition<br>+2 Geschick<br>+5 Ausdauer-Regeneration<br>+5% Krit. Chance<br>+5% Krit. Schaden",
       ],
       color: "green",
       cost: 4,
@@ -1232,10 +1232,10 @@ const SkillNodes: SkillNodesType = {
     KICK: {
       name: "KICK",
       description: [
-        "When equipped with a Melee weapon you can perform a Kick by attacking while blocking.",
-        "Kick deals little damage but hits the target with massive force to fill up the enemies <i>Stun Bar</i> and pushes them back.",
-        "<i>Stun Bar</i> increase scales with Dexterity. Stun time depends on the enemy's size.",
-        "<b>Overpower</b><br>Attacking blocking enemies or parrying their attacks fills their <i>Stun Bar</i> until they become <b>overpowered</b>.<br><b>Overpowered</b> enemies are open for Merciless Attacks.",
+        "Mit einer Nahkampfwaffe ausgerüstet kannst di während dem Block einen Kick durchführen.,
+        "KKicken verursacht wenig Schaden, aber trifft den Gegner mit grißer Wucht, wodurch er zurückgedrängt wird und sein <i>Betäubungsbalken</i> gefüllt wird.",
+        "Der <i>Betäubungsbalken</i> füllt sich abhängig stark von deiner Geschicklichkeit. Die Betäubungszeit hängt von der Größe des Gegners ab.",
+        "<b>überwältigen</b><br>Wenn du blockende Gegner angreifst oder ihre Angriffe parierst, füllt sich ihr <i>Betäubungsbalken</i>, bis sie <b>überwältigt werden. Gegen überwältigte Gegner kannst du einen Gnadenlosen Angriff durchführen.",
       ],
       color: "green",
       hasIcon: true,
@@ -1243,14 +1243,14 @@ const SkillNodes: SkillNodesType = {
     },
     AIRBORNE: {
       name: "ABGEHOBEN",
-      description: ["Gleiter verrbauchen 30 % weniger Ausdauer."],
+      description: ["Gleiter verrbauchen 30% weniger Ausdauer."],
       color: "green",
       cost: 2,
     },
     SNIPER: {
       name: "HECKENSCHÜTZE",
       description: [
-        "Beim Angriff mit einer Fernkampfwaffe erhöht sich deine Krit. Trefferchance um 10 %.",
+        "Beim Angriff mit einer Fernkampfwaffe erhöht sich deine Krit. Trefferchance um 10%.",
       ],
       color: "green",
       cost: 2,
@@ -1361,9 +1361,9 @@ const SkillNodes: SkillNodesType = {
       cost: 4,
     },
     EXPOSE_WEAKNESS: {
-      name: "EXPOSE WEAKNESS",
+      name: "SCHWÄCHEN AUFDECKEN",
       description: [
-        "Critical Strikes with Daggers increase damage dealt to the enemy by <b>25%</b> for <b>3</b> seconds.",
+        "Kritische Hiebe mit Dolchen erhöhen den Schaden, der dem Gegner zugefügt wird, <b>3</b> Sekunden lang um <b>25%</b>",
       ],
       color: "green",
       cost: 4,
