@@ -39,7 +39,7 @@ const AboutDialog = ({ open, onClose }: PropsType) => {
                   as="h3"
                   className="text-lg font-medium leading-6 text-gray-900"
                 >
-                  About
+                  About / &Uuml;ber
                 </Dialog.Title>
                 <div className="mt-5 text-black flex flex-col gap-5">
                   <p>
@@ -72,6 +72,18 @@ const AboutDialog = ({ open, onClose }: PropsType) => {
                     </a>{" "}
                     for giving me some of the assets used in this tool.
                   </p>
+                  <p>
+                    Deutsche &Uuml;bersetzung ist ein Fork vom GitHub Repository und um zus&auml;tzliche Assets erg&auml;nzt: {" "}
+                    <a
+                      className="text-purple-600 underline"
+                      href="https://github.com/cron-ix/enshrouded-skill-tree-de"
+                      target="_blank"
+                    >
+                      deutscher GitHub-Fork
+                    </a>{" "}
+                    .
+                  </p>
+                  <p>Cheers @Namari</p>
 
                   <div className="w-full flex justify-end">
                     <button
@@ -83,7 +95,7 @@ const AboutDialog = ({ open, onClose }: PropsType) => {
                       )}
                       onClick={onClose}
                     >
-                      Close
+                      Schlie&szlig;en
                     </button>
                   </div>
                 </div>
