@@ -1,3 +1,13 @@
+### Enshrouded Fähigkeitenplaner
+
+Das ist die deutsche Übersetzung des [Enshrouded Skill Planner](https://github.com/rossicler/enshrouded-skill-tree), ergänzt um übersetzte Asset (skill tree labels).
+
+Die Live-Version ist [hier](https://enshrouded-skill-tree-de.vercel.app/) zu erreichen.
+
+***
+
+Originale README:
+
 ### Enshrouded Skill Planner
 
 This tool was created solely to aid Enshrouded players in sharing skill trees and builds conveniently. I'm not affiliated with Keen Games and do not hold any rights to the Enshrouded game.
