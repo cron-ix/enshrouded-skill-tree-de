@@ -12,7 +12,7 @@ type PropsType = {
 };
 
 const BASE_URL =
-  process.env.BASE_URL || "https://enshrouded-skill-tree.vercel.app/";
+  process.env.BASE_URL || "https://enshrouded-skill-tree-de.vercel.app/";
 
 const ExportDialog = ({ open, onClose }: PropsType) => {
   const [shareURL, setShareURL] = useState("");
@@ -25,7 +25,7 @@ const ExportDialog = ({ open, onClose }: PropsType) => {
     const url = `${BASE_URL}?code=${tmpCode}`;
     setShareURL(url);
     navigator.clipboard.writeText(url);
-    toast.success("Share URL copied successfully");
+    toast.success("Teilen-URL erfolgreich kopiert.");
     setCopied("code");
   };
 
@@ -40,7 +40,7 @@ const ExportDialog = ({ open, onClose }: PropsType) => {
     const url = `${BASE_URL}?shortCode=${result.code}`;
     setShortURL(url);
     navigator.clipboard.writeText(url);
-    toast.success("Share URL copied successfully");
+    toast.success("Teilen-URL erfolgreich kopiert.");
     setCopied("api");
   };
 
@@ -48,7 +48,7 @@ const ExportDialog = ({ open, onClose }: PropsType) => {
     if (open) {
       if (copied) return;
       if (selectedSkills.length === 0) {
-        toast.error("No skills allocated!");
+        toast.error("Keine Fähigkeiten zugewiesen!");
         onClose();
       } else {
         exportHandler();
@@ -87,18 +87,18 @@ const ExportDialog = ({ open, onClose }: PropsType) => {
                   as="h3"
                   className="text-lg font-medium leading-6 text-gray-900"
                 >
-                  Export skills
+                  Exportiere Fähigkeiten
                 </Dialog.Title>
                 <div className="mt-5 flex flex-col gap-3">
                   <CopyInput
-                    label="Default Url"
+                    label="Standard-URL"
                     copied={copied === "code"}
                     onCopy={() => setCopied("code")}
                     value={shareURL}
                   />
                   {shortURL ? (
                     <CopyInput
-                      label="Short Url"
+                      label="Kurz-URL"
                       copied={copied === "api"}
                       onCopy={() => setCopied("api")}
                       value={shortURL}
@@ -111,7 +111,7 @@ const ExportDialog = ({ open, onClose }: PropsType) => {
                       )}
                       onClick={exportAPIHandler}
                     >
-                      Generate short URL
+                      Erzeuge Kurz-URL
                     </button>
                   )}
 
@@ -125,7 +125,7 @@ const ExportDialog = ({ open, onClose }: PropsType) => {
                       )}
                       onClick={onClose}
                     >
-                      Close
+                      Schließen
                     </button>
                   </div>
                 </div>
