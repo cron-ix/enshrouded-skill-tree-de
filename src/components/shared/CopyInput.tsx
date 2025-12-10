@@ -15,7 +15,7 @@ type PropsType = {
 const CopyInput = ({ copied, value, label, onCopy }: PropsType) => {
   const copyHandler = () => {
     navigator.clipboard.writeText(value);
-    toast.success("Share URL copied successfully");
+    toast.success("Die Freigabe-URL wurde erfolgreich kopiert.");
     if (onCopy) onCopy();
   };
 
