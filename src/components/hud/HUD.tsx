@@ -60,7 +60,7 @@ const HUD = ({ zoomIn, zoomOut, centerView }: PropsType) => {
       >
         <HUDButton onClick={() => setImportOpen(true)}>Import</HUDButton>
         <HUDButton onClick={() => setExportOpen(true)}>Export</HUDButton>
-        <HUDButton onClick={clearHandler}>Clear</HUDButton>
+        <HUDButton onClick={clearHandler}>Löschen</HUDButton>
 
         <HUDButton className="mt-5" onClick={openDiscordInvite}>
           Discord
