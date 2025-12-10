@@ -378,7 +378,7 @@ const SkillNodes: SkillNodesType = {
     DOUBLE_JUMP: {
       name: "DOPPELSPRUNG",
       description: ["Erlaubt es, in der Luft ein zweites Mal zu springen."],
-      hasAsset: true,
+      hasIcon: true,
       iconOffset: 10,
       color: "green",
       cost: 4,
@@ -1333,7 +1333,7 @@ const SkillNodes: SkillNodesType = {
         "Deine maximale Gesundheit wird um das Fünffache deines Intelligenzattributs erhöht.",
       ],
       color: "blue",
-      hasAsset: true,
+      hasIcon: true,
       cost: 5,
     },
     POISONED_BLADES: {
