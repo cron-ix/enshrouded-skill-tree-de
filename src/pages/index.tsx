@@ -68,7 +68,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         },
       };
     } else {
-      throw new Error("Connection limit reached. Please try again later.");
+      throw new Error("Verbindungslimit erreicht. Bitte versuchen Sie es später erneut.");
     }
   }
 
