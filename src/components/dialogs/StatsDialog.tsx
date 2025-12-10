@@ -58,7 +58,7 @@ const StatsDialog = ({ open, onClose }: PropsType) => {
                   as="h3"
                   className="text-lg font-semibold leading-6 text-gray-900"
                 >
-                  Stats summary
+                  Stats Zusammenfassung
                 </Dialog.Title>
                 <div className="mt-5 text-black flex gap-5 w-full">
                   <div className="flex flex-col gap-5 w-full">
@@ -83,7 +83,7 @@ const StatsDialog = ({ open, onClose }: PropsType) => {
                     )}
                     onClick={onClose}
                   >
-                    Close
+                    Schlie&szlig;en
                   </button>
                 </div>
               </Dialog.Panel>
