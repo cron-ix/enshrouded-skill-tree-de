@@ -16,6 +16,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/locales/fr/common.js", "public/locales/common.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/locales/de/common.js", "public/locales/fr/common.js", "public/locales/common.js"],
   "exclude": ["node_modules"]
 }
