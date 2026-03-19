@@ -46,18 +46,18 @@
     "invalidCode": "Ungültiger Code"
   },
   "treeLabels": {
-    "trickster": "Trickster",
-    "wizard": "Wizard",
-    "healer": "Healer",
-    "battlemage": "Battlemage",
+    "trickster": "Gauner",
+    "wizard": "Zauberer",
+    "healer": "Heiler",
+    "battlemage": "Kampfmagier",
     "tank": "Tank",
-    "warrior": "Warrior",
-    "barbarian": "Barbarian",
-    "athlete": "Athlete",
-    "survivor": "Survivor",
-    "beastmaster": "Beastmaster",
-    "ranger": "Ranger",
-    "assassin": "Assassin"
+    "warrior": "Krieger",
+    "barbarian": "Barbar",
+    "athlete": "Athlet",
+    "survivor": "Überlebender",
+    "beastmaster": "Bestienmeister",
+    "ranger": "Waldläufer",
+    "assassin": "Assassine"
   },
   "stats": {
     "constitution": "Konstitution",
