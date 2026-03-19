@@ -1001,6 +1001,7 @@
   },
   "POISON_MASTERY": {
     "name": "GIFTBEHERRSCHUNG",
+    "description": [
       "Erhöht den mit dem Dolch-Perk <b>Vergiftete Klingen</b> verursachten Schaden umm <b>100%</b>."
     ]
   },
