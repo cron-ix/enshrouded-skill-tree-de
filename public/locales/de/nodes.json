@@ -216,12 +216,11 @@
       "Deiner Parade fügt dem Gegner 20 Wucht Schaden zu. Der Schaden wird durch dein Stärkeattribut erhöht."
     ]
   },
-  # ToDo:
   "WHIRLWIND_CRESCENDO": {
-    "name": "WHIRLWIND CRESCENDO",
+    "name": "WIRBELWIND CRESCENDO",
     "description": [
-      "When equipped with a Two-Handed weapon, trigger a whirl attack at the end of an attack chain.",
-      "<b>Cost</b>: 75 Stamina"
+      "Wenn du mit einer Zweihandwaffe ausgerüstest bist, löst du am Ende einer Angriffskette einen Wirbelwind aus.",
+      "<b>Kosten</b>: 75 Ausdauer"
     ]
   },
   "CRASH_DOWN_ATTACK": {
@@ -715,9 +714,8 @@
     "description": [
       "Schächt die Wirkung des <b>Nass</b> und <b>Durchnässt</b> Debuffs",
       "Ausdauer und Ausdauerregeneration werden um <b>20%</b> statt <b>30%</b> reduziert.",
-      #ToDo: "Wet" and "Soaked",
-      "<b>Wet</b><br/>Reduces Stamina and Stamina Regeneration by <b>30%</b> for <b>15</b> minutes. Warmth reduces the remaining duration.",
-      "<b>Soaked</b><br/>Reduces Stamina and Stamina Regeneration by <b>30%</b> for <b>30</b> seconds. Also reduces <b>Ice and Shock Resistances</b> by <b>30%</b> but increases <b>Fire Resistances</b> by <b>30%</b>.<br><b>Soaked</b> can be applied to enemies. <br><b>Soaked</b> duration can not be reduced by warmth and <b>Wet</b> debuff starts after it is over."
+      "<b>Nass</b><br/>Verringert Ausdauer und Ausdauerregeneration um <b>30%</b> für <b>15</b> Minuten. Wärme reduziert die Dauer des Effekts.",
+      "<b>Durchnässt</b><br/>Verringert Ausdauer und Ausdauerregeneration um <b>30%</b> für <b>30</b> Sekunden. Reduziert außerdem die <b>Eis- und Schockresistenz</b> um <b>30%</b>, aber erhöht die <b>Feuerresistenz</b> um <b>30%</b>.<br/><b>Durchnässt</b> kann auf Feinde gewirkt werden.<br/>Die Dauer der Durchnässung kann nicht mit Wärme verringert werden und geht nach Beendigung in den <b>Nass</b> Debuff über."
     ]
   },
   "SOAKED_DOG": {
@@ -725,9 +723,8 @@
     "description": [
       "Schwächt die Wirkung des <b>Nass</b> und <b>Durchnässt</b> Debuffs.",
       "Ausdauer und Ausdauerregeneration werden um <b>10%</b> statt <b>20%</b> reduziert.",
-      #ToDo: "Wet" and "Soaked",
-      "<b>Wet</b><br/>Reduces Stamina and Stamina Regeneration by <b>30%</b> for <b>15</b> minutes. Warmth reduces the remaining duration.",
-      "<b>Soaked</b><br/>Reduces Stamina and Stamina Regeneration by <b>30%</b> for <b>30</b> seconds. Also reduces <b>Ice and Shock Resistances</b> by <b>30%</b> but increases <b>Fire Resistances</b> by <b>30%</b>.<br><b>Soaked</b> can be applied to enemies. <br><b>Soaked</b> duration can not be reduced by warmth and <b>Wet</b> debuff starts after it is over."
+      "<b>Nass</b><br/>Verringert Ausdauer und Ausdauerregeneration um <b>30%</b> für <b>15</b> Minuten. Wärme reduziert die Dauer des Effekts.",
+      "<b>Durchnässt</b><br/>Verringert Ausdauer und Ausdauerregeneration um <b>30%</b> für <b>30</b> Sekunden. Reduziert außerdem die <b>Eis- und Schockresistenz</b> um <b>30%</b>, aber erhöht die <b>Feuerresistenz</b> um <b>30%</b>.<br/><b>Durchnässt</b> kann auf Feinde gewirkt werden.<br/>Die Dauer der Durchnässung kann nicht mit Wärme verringert werden und geht nach Beendigung in den <b>Nass</b> Debuff über."
     ]
   },
   "SPLASH_DASH": {
@@ -795,14 +792,12 @@
   "REBOUND": {
     "name": "ATEMTECHNIK",
     "description": [
-      #ToDO: Beschreibung checken - 10% 50% fett? (tipp: kostet 2 Punkte),
       "Die Basis-Ausdauerregeneration ist um <b>10%</b> erhöht."
     ]
   },
   "REBOUND_II": {
-    "name": "REBOUND",
+    "name": "ATEMTECHNIK",
     "description": [
-      #ToDO: Beschreibung checken - 10% 50% fett? (tipp: kostet 4 punkte),
       "Die Basis-Ausdauerregeneration ist um <b>10%</b> erhöht."
     ]
   },
@@ -890,7 +885,6 @@
   "COUNTER_BATTERY": {
     "name": "KONTERSALVE",
     "description": [
-      #ToDo: passt Beschreibung noch?,
       "Der Schaden gegen <b>Fernkampfgegner</b> wird um <b>15%</b> erhöht."
     ]
   },
@@ -1000,23 +994,20 @@
     ]
   },
   "POISONED_BLADES": {
-    "name": "VERGIFTETE KLINGEN",
+    "name": "GIFTIGE KLINGEN",
     "description": [
-      #ToDo: ist Vergiftete Klingen in Anführungszeichen?
-      "Erhöht deine Chance, Feinde zu vergiften, auf 25%, wenn du Dolche mit dem Vergiftete Klingen Perk verwendest."
+      "Erhöht die Chance, Feinde zu vergiften, auf <b>25%</b>, wenn du Dolche mit dem <b>Vergiftete Klingen</b> Perk verwendest."
     ]
   },
   "POISON_MASTERY": {
-    "name": "MEISTER DES GIFTS",
-    "description": [
-      #ToDo: Beschreibung abgleichen
-      "Erhöht den mit dem Dolch-Perk Vergiftete Klingen verursachten Schaden."
+    "name": "GIFTBEHERRSCHUNG",
+      "Erhöht den mit dem Dolch-Perk <b>Vergiftete Klingen</b> verursachten Schaden umm <b>100%</b>."
     ]
   },
   "QUICK_REFLEX_BLOCK": {
     "name": "SCHNELLER REFLEX-BLOCK",
     "description": [
-      "Erhöht kurzzeitig deinen Blockwert beim Blocken mit Dolchen und sorgt dafür, dass eine knapp verfehlte Parade die Ausdauer nur minimal reduziert."
+      "Erhöht kurzzeitig den Blockwert beim Blocken mit Dolchen und sorgt dafür, dass eine knapp verfehlte Parade nur wenig Ausdauer kostet."
     ]
   },
   "EXPOSE_WEAKNESS": {
