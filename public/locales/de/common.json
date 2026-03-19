@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Enshrouded Fähigkeiten Planer",
-    "description": "Ein Fähigkeiten-Baum Planer für das Spiel Enshrouded."
+    "description": "Ein Fähigkeitenbaum Planer für das Spiel Enshrouded."
   },
   "hud": {
     "import": "Importieren",
@@ -24,8 +24,8 @@
     },
     "export": {
       "title": "Exportiere Fähigkeiten",
-      "defaultUrl": "Standard-Url",
-      "shortUrl": "Kurz-Url",
+      "defaultUrl": "Standard-URL",
+      "shortUrl": "Kurz-URL",
       "generateShortUrl": "Erzeuge Kurz-URL",
       "close": "Schließen"
     },
@@ -41,7 +41,7 @@
   },
   "toasts": {
     "shareUrlCopied": "Freigabe-URL erfolgreich kopiert",
-    "noSkillsAllocated": "NKeine Fähigkeiten zugewiesen!",
+    "noSkillsAllocated": "Keine Fähigkeiten zugewiesen!",
     "invalidUrl": "Ungültige URL!",
     "invalidCode": "Ungültiger Code"
   },
@@ -60,7 +60,7 @@
     "assassin": "Assassine"
   },
   "stats": {
-    "constitution": "Constitution",
+    "constitution": "Konstitution",
     "strength": "Stärke",
     "endurance": "Kondition",
     "dexterity": "Geschick",
