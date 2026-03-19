@@ -1,74 +1,74 @@
 {
   "meta": {
-    "title": "Enshrouded Skill Planner",
-    "description": "A skill tree planner for the game Enshrouded."
+    "title": "Enshrouded Fähigkeiten Planer",
+    "description": "Ein Fähigkeiten-Baum Planer für das Spiel Enshrouded."
   },
   "hud": {
-    "import": "Import",
-    "export": "Export",
-    "clear": "Clear",
+    "import": "Importieren",
+    "export": "Exportieren",
+    "clear": "Löschen",
     "discord": "Discord",
-    "about": "About",
+    "about": "Über",
     "stats": "Stats",
     "search": {
-      "placeholder": "Search"
+      "placeholder": "Suche"
     }
   },
   "dialogs": {
     "about": {
-      "title": "About",
-      "description1": "This tool was created solely to aid Enshrouded players in sharing skill trees and builds conveniently. I'm not affiliated with Keen Games and do not hold any rights to the Enshrouded game.",
-      "description2": "This tool is open source and available for anyone who wants to contribute. If you're looking to contribute, you can go to the <githubLink>GitHub repository</githubLink> or you can join our <discordLink>Discord server</discordLink>.",
-      "description3": "Special thanks to <glitchizLink>@Glitchiz</glitchizLink> for giving me some of the assets used in this tool.",
-      "close": "Close"
+      "title": "Über",
+      "description1": "Dieses Tool wurde ausschließlich entwickelt, um Enshrouded-Spielern dabei zu helfen, Fertigkeitsbäume und Builds bequem auszutauschen. Ich stehe in keiner Verbindung zu Keen Games und besitze keinerlei Rechte am Spiel Enshrouded.",
+      "description2": "TDieses Tool ist Open Source und steht allen offen, die einen Beitrag leisten möchten. Wenn du mitwirken möchtest, kannst du das <githubLink>GitHub-Repository</githubLink> besuchen oder unserem <discordLink>Discord-Server</discordLink> beitreten.",
+      "description3": "Ein besonderer Dank geht an <glitchizLink>@Glitchiz</glitchizLink> dafür, dass er mir einige der in diesem Tool verwendeten Elemente zur Verfügung gestellt hat.",
+      "close": "Schließen"
     },
     "export": {
-      "title": "Export skills",
-      "defaultUrl": "Default Url",
-      "shortUrl": "Short Url",
-      "generateShortUrl": "Generate short URL",
-      "close": "Close"
+      "title": "Exportiere Fähigkeiten",
+      "defaultUrl": "Standard-Url",
+      "shortUrl": "Kurz-Url",
+      "generateShortUrl": "Erzeuge Kurz-URL",
+      "close": "Schließen"
     },
     "import": {
-      "title": "Import skills",
-      "import": "Import"
+      "title": "Importiere Fähigkeiten",
+      "import": "Importiere"
     },
     "stats": {
-      "title": "Stats summary",
-      "basic": "Basic",
-      "close": "Close"
+      "title": "Stats Zusammenfassung",
+      "basic": "Grundlegend",
+      "close": "Schließen"
     }
   },
   "toasts": {
-    "shareUrlCopied": "Share URL copied successfully",
-    "noSkillsAllocated": "No skills allocated!",
-    "invalidUrl": "Invalid url!",
-    "invalidCode": "Invalid code"
+    "shareUrlCopied": "Freigabe-URL erfolgreich kopiert",
+    "noSkillsAllocated": "NKeine Fähigkeiten zugewiesen!",
+    "invalidUrl": "Ungültige URL!",
+    "invalidCode": "Ungültiger Code"
   },
   "treeLabels": {
-    "trickster": "Trickster",
-    "wizard": "Wizard",
-    "healer": "Healer",
-    "battlemage": "Battlemage",
+    "trickster": "Gauner",
+    "wizard": "Zauberer",
+    "healer": "Heiler",
+    "battlemage": "Kampfmagier",
     "tank": "Tank",
-    "warrior": "Warrior",
-    "barbarian": "Barbarian",
-    "athlete": "Athlete",
-    "survivor": "Survivor",
-    "beastmaster": "Beastmaster",
-    "ranger": "Ranger",
-    "assassin": "Assassin"
+    "warrior": "Krieger",
+    "barbarian": "Barbar",
+    "athlete": "Athlet",
+    "survivor": "Überlebender",
+    "beastmaster": "Bestienmeister",
+    "ranger": "Waldläufer",
+    "assassin": "Assassine"
   },
   "stats": {
     "constitution": "Constitution",
-    "strength": "Strength",
-    "endurance": "Endurance",
-    "dexterity": "Dexterity",
-    "spirit": "Spirit",
-    "intelligence": "Intelligence"
+    "strength": "Stärke",
+    "endurance": "Kondition",
+    "dexterity": "Geschick",
+    "spirit": "Willenskraft",
+    "intelligence": "Intelligenz"
   },
   "accessibility": {
-    "skillPointIcon": "Skill Point Icon",
-    "backgroundAlt": "Purple smoke background"
+    "skillPointIcon": "Fähigkeitenpunkte-Symbol",
+    "backgroundAlt": "Hintergrund mit violettem Rauch"
   }
 }
