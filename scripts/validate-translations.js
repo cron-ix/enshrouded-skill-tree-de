@@ -29,7 +29,7 @@ if (nodeKeys.length === 0) {
     console.warn('Warning: No node keys found in Nodes.ts. Check the regex parser.');
 }
 
-const locales = ['en', 'fr'];
+const locales = ['en', 'fr', 'de'];
 let hasError = false;
 
 locales.forEach(lang => {
